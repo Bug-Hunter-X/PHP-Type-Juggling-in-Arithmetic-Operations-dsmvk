@@ -1,0 +1,2 @@
+# PHP Type Juggling Bug
+This example demonstrates a common error in PHP related to type juggling.  The `calculateSum` function attempts to sum an array of numbers, but due to the inclusion of a string ('4') in the input array, PHP's loose typing leads to unexpected behavior. The string '4' is implicitly converted to an integer, but this can lead to subtle errors that are hard to debug, especially in larger applications.  The solution shows how to use type checking or strict comparisons to prevent such errors.
